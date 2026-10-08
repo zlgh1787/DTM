@@ -2,19 +2,6 @@
 
 ## Neun Karten, neun Methoden
 
-<table>
-<tr>
-<td width="85%" valign="top">
-<p>
-Willkommen in meinem Kartenarchiv zum Modul <strong>DTM – Desktop-Mapping</strong> an der BHT Berlin. Im Laufe des Semesters ist zu jeder Episode eine eigene Karte entstanden – von Berliner Einwohnerdichten über Kirschblüten, Wahlkreise und Fluchtrouten bis zu Sternschnuppen, Orkanwirbeln und Gebäuden in 2,5D und 3D. Zu jeder Karte gibt es hier eine kurze Einordnung der Methode mit ihren Stärken und Schwächen sowie eine Beschreibung, wie sie in <strong>QGIS</strong> umgesetzt wurde.
-</p>
-</td>
-<td width="15%" valign="middle" align="center">
-<img src="EP06_Tilemap_DE.png" alt="Deutschland aus Bausteinen" width="100">
-</td>
-</tr>
-</table>
-
 
 
 ## EP 01 | Dasymetrische Choroplethenkarten
