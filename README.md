@@ -2,6 +2,21 @@
 
 ## Neun Karten, neun Methoden
 
+<table>
+<tr>
+<td width="85%" valign="top">
+<p>
+Willkommen in meinem Kartenarchiv zum Modul <strong>DTM – Desktop-Mapping</strong> an der BHT Berlin. Im Laufe des Semesters ist zu jeder Episode eine eigene Karte entstanden – von Berliner Einwohnerdichten über Kirschblüten, Wahlkreise und Fluchtrouten bis zu Sternschnuppen, Orkanwirbeln und Gebäuden in 2,5D und 3D. Zu jeder Karte gibt es hier eine kurze Einordnung der Methode mit ihren Stärken und Schwächen sowie eine Beschreibung, wie sie in <strong>QGIS</strong> umgesetzt wurde.
+</p>
+</td>
+<td width="15%" valign="middle" align="center">
+<img src="EP06_Tilemap_DE.png" alt="Deutschland aus Bausteinen" width="100">
+</td>
+</tr>
+</table>
+
+
+
 ## EP 01 | Dasymetrische Choroplethenkarten
 
 ### Vor- und Nachteile der Methode
@@ -10,7 +25,9 @@ Eine klassische Choroplethenkarte verteilt einen Wert gleichmäßig über die ga
 
 Der Preis dafür ist ein höherer Aufwand: Man braucht zusätzlich einen möglichst aktuellen Datensatz zur Flächennutzung, dessen Fehler direkt ins Ergebnis eingehen. Innerhalb der Wohnflächen bleibt die Verteilung trotzdem gleichmäßig – ob dort Einfamilienhäuser oder Hochhäuser stehen, unterscheidet die Methode nicht. Das Ergebnis ist genauer, aber weiterhin ein Modell.
 
-<img src="EP01_Berlin_Bevoelkerung_DINA4.png" width="100%" alt="EP01 – Wie dicht wohnt Berlin?">
+<a href="EP01_Berlin_Bevoelkerung.pdf"><img src="EP01_Berlin_Bevoelkerung.png" width="100%" alt="EP01 – Wie dicht wohnt Berlin?"></a>
+
+<sub>Klick auf die Karte öffnet das georeferenzierte PDF · <a href="EP01_Berlin_Bevoelkerung.pdf">EP01_Berlin_Bevoelkerung.pdf</a></sub>
 
 ### Umsetzung der Methode
 
@@ -28,7 +45,9 @@ Gitterchoroplethenkarten fassen Punktdaten in gleich großen Zellen zusammen. We
 
 Gleichzeitig gehen die genauen Standorte verloren: Ob die Bäume einer Zelle an einer Allee stehen oder verstreut im Park, ist nicht mehr zu erkennen. Auch Größe und Lage des Gitters beeinflussen das Ergebnis – ein verschobenes oder gröberes Raster kann Schwerpunkte teilen oder verwischen.
 
-<img src="EP02_Kirschbaeume_Hexagon_DINA4.png" width="100%" alt="EP02 – Kirschblüte im Sechseck">
+<a href="EP02_Kirschbaeume_Hexagon.pdf"><img src="EP02_Kirschbaeume_Hexagon.png" width="100%" alt="EP02 – Kirschblüte im Sechseck"></a>
+
+<sub>Klick auf die Karte öffnet das georeferenzierte PDF · <a href="EP02_Kirschbaeume_Hexagon.pdf">EP02_Kirschbaeume_Hexagon.pdf</a></sub>
 
 ### Umsetzung der Methode
 
@@ -46,7 +65,9 @@ Punktrasterkarten setzen an regelmäßige Rasterpunkte je ein Symbol, dessen Gr�
 
 Dafür lassen sich Mengen über Symbolgrößen nur grob abschätzen, besonders bei verspielten Formen. Große Symbole können sich überlappen, und die Position eines Symbols ist nur der Mittelpunkt der Zelle, nicht der tatsächliche Baumstandort.
 
-<img src="EP03_Kirschbluete_Punktraster_DINA4.png" width="100%" alt="EP03 – Ein Blütenmeer aus Punkten">
+<a href="EP03_Kirschbluete_Punktraster.pdf"><img src="EP03_Kirschbluete_Punktraster.png" width="100%" alt="EP03 – Ein Blütenmeer aus Punkten"></a>
+
+<sub>Klick auf die Karte öffnet das georeferenzierte PDF · <a href="EP03_Kirschbluete_Punktraster.pdf">EP03_Kirschbluete_Punktraster.pdf</a></sub>
 
 ### Umsetzung der Methode
 
@@ -64,7 +85,9 @@ Value-by-Alpha verbindet zwei Informationen in einer Fläche: Der Farbton zeigt 
 
 Sehr transparente Flächen sind allerdings schwer einer Partei zuzuordnen und können wie fehlende Daten wirken. Die Wirkung hängt stark vom Hintergrund ab, und wie bei jeder Choroplethenkarte wirken große, dünn besiedelte Wahlkreise wichtiger als kleine städtische.
 
-<img src="EP04_Wahlen_Ungarn_VbA_DINA4.png" width="100%" alt="EP04 – Ungarn hat gewählt">
+<a href="EP04_Wahlen_Ungarn_VbA.pdf"><img src="EP04_Wahlen_Ungarn_VbA.png" width="100%" alt="EP04 – Ungarn hat gewählt"></a>
+
+<sub>Klick auf die Karte öffnet das georeferenzierte PDF · <a href="EP04_Wahlen_Ungarn_VbA.pdf">EP04_Wahlen_Ungarn_VbA.pdf</a></sub>
 
 ### Umsetzung der Methode
 
@@ -80,9 +103,13 @@ Die Ergebnisse der ungarischen Parlamentswahl 2026 wurden mit den Geometrien der
 
 Ursprung-Ziel-Karten zeigen, wohin Menschen, Waren oder Informationen von einem Ort aus gelangen. Linienfarbe und -stärke machen auf einen Blick klar, welche Ziele bedeutend sind. Je mehr Ziele es gibt, desto stärker überlagern sich die Linien jedoch rund um den Ursprung. Wichtig ist außerdem: Die Linien verbinden nur Herkunft und Ziel – sie sind keine tatsächlichen Fluchtwege. Die Globusansicht wirkt anschaulich, zeigt aber nur eine Erdhälfte und staucht den Rand.
 
-<img src="EP05_Sudan_DINA4.png" width="100%" alt="EP05 – Wohin Menschen aus dem Sudan fliehen">
+<a href="EP05_Sudan.pdf"><img src="EP05_Sudan.png" width="100%" alt="EP05 – Wohin Menschen aus dem Sudan fliehen"></a>
 
-<img src="EP05_Irak_DINA4.png" width="100%" alt="EP05 – Fluchtziele aus dem Irak">
+<sub>Klick auf die Karte öffnet das georeferenzierte PDF · <a href="EP05_Sudan.pdf">EP05_Sudan.pdf</a></sub>
+
+<a href="EP05_Irak.pdf"><img src="EP05_Irak.png" width="100%" alt="EP05 – Fluchtziele aus dem Irak"></a>
+
+<sub>Klick auf die Karte öffnet das georeferenzierte PDF · <a href="EP05_Irak.pdf">EP05_Irak.pdf</a></sub>
 
 ### Umsetzung der Methode
 
@@ -98,7 +125,9 @@ Aus der UNHCR-Flüchtlingsstatistik wurden alle Aufnahmeländer von Geflüchtete
 
 Tilemaps übersetzen einen Raum in gleich große Kacheln und machen ihn dadurch einfach und einprägsam. In Klemmbaustein-Optik wird das Relief Deutschlands fast spielerisch lesbar: Tiefland, Mittelgebirge und Alpen heben sich klar voneinander ab. Die Vereinfachung hat aber ihren Preis – Grenzverläufe werden treppig, und weil jede Kachel nur die mittlere Höhe zeigt, verschwinden einzelne Gipfel und Täler. Für genaue Geländeanalysen ist die Karte nicht gedacht.
 
-<img src="EP06_Tilemap_DE_A3.png" width="100%" alt="EP06 – Deutschland aus Bausteinen">
+<a href="EP06_Tilemap_DE.pdf"><img src="EP06_Tilemap_DE.png" width="100%" alt="EP06 – Deutschland aus Bausteinen"></a>
+
+<sub>Klick auf die Karte öffnet das georeferenzierte PDF · <a href="EP06_Tilemap_DE.pdf">EP06_Tilemap_DE.pdf</a></sub>
 
 ### Umsetzung der Methode
 
@@ -152,16 +181,15 @@ Der GRIB-Datensatz (ERA5-Reanalyse, bereitgestellt durch die BHT Berlin) wurde i
 
 ### München in 2,5D
 
-<img src="EP09_Muenchen_2-5D_DINA4.png" width="100%" alt="EP09 – München in 2,5D">
+<a href="EP09_Muenchen_2-5D.pdf"><img src="EP09_Muenchen_2-5D.png" width="100%" alt="EP09 – München in 2,5D"></a>
+
+<sub>Klick auf die Karte öffnet das georeferenzierte PDF · <a href="EP09_Muenchen_2-5D.pdf">EP09_Muenchen_2-5D.pdf</a></sub>
 
 ### Freiburg im Breisgau in 3D
 
-<img src="EP09_Freiburg_3D.png" width="100%" alt="EP09 – Freiburg im Breisgau in 3D">
-<p>
-Kartenerstellung: Jaron Scherer, BHT, 2026<br>
-Gebäudedaten, Geländemodell und Luftbild: © LGL Baden-Württemberg, www.lgl-bw.de<br>
-3D-Gebäudemodell LoD2, DGM1, DOP20 – Datenlizenz Deutschland – Namensnennung – Version 2.0
-</p>
+<a href="EP09_Freiburg_3D.pdf"><img src="EP09_Freiburg_3D.png" width="100%" alt="EP09 – Freiburg im Breisgau in 3D"></a>
+
+<sub>Klick auf die Karte öffnet das PDF · <a href="EP09_Freiburg_3D.pdf">EP09_Freiburg_3D.pdf</a></sub>
 
 ### Umsetzung der Methode
 
